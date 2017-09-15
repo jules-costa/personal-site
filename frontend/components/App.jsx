@@ -10,13 +10,12 @@ import Links from './links';
 const App = () => (
   <section>
     <Route path="/" component={Links} />
+    <Route path="/about" component={About} />
+    <Route path="/work" component={Work} />
+    <Route path="/places" component={Places} />
+    <Route path="/interests" component={Interests} />
+    <Route path="/reading" component={Reading} />
   </section>
 );
 
 export default App;
-
-{/* <Route path="/about" component={About} />
-<Route path="/work" component={Work} />
-<Route path="/places" component={Places} />
-<Route path="/interests" component={Interests} />
-<Route path="/reading" component={Reading} /> */}
