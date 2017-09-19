@@ -4,7 +4,7 @@ import About from './about';
 import Work from './work';
 import Places from './places';
 import Interests from './interests';
-import Reading from './reading';
+import Projects from './projects';
 import Links from './links';
 
 const App = () => (
@@ -14,7 +14,7 @@ const App = () => (
     <Route path="/work" component={Work} />
     <Route path="/places" component={Places} />
     <Route path="/interests" component={Interests} />
-    <Route path="/reading" component={Reading} />
+    <Route path="/projects" component={Projects} />
   </section>
 );
 
