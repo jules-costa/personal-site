@@ -1,12 +1,50 @@
-.links {
-  display: flex;
-  flex-direction: column;
-  font-family: 'Kameron', serif;
-  font-size: 22px;
-  text-align: right;
-  line-height: 40px;
+body {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 150px;
 }
 
 a {
-  text-decoration: none;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 24px;
+  margin-bottom: 14px;
+}
+
+h2, h4, h5 {
+  font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+h2 {
+  font-size: 26px;
+  margin-bottom: 16px;
+}
+
+h4 {
+  font-size: 22px;
+}
+
+h5 {
+  font-size: 18px;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.main-wrapper {
+  display: flex;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+}
+
+.link-group {
+  font-size: 20px;
 }

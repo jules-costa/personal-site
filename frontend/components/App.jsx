@@ -8,7 +8,7 @@ import Projects from './projects';
 import Links from './links';
 
 const App = () => (
-  <section>
+  <section className="main-wrapper">
     <Route path="/" component={Links} />
     <Route path="/about" component={About} />
     <Route path="/work" component={Work} />
