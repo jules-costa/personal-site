@@ -87,6 +87,14 @@ p {
 .contact-info {
   display: flex;
   justify-content: space-between;
-  width: 300px;
+  width: 350px;
   align-self: flex-start;
+}
+
+.fa-phone {
+  margin-right: 8px;
+}
+
+.fa-envelope-o {
+  margin-right: 8px;
 }
