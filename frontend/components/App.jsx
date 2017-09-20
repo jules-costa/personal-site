@@ -10,6 +10,7 @@ import Links from './links';
 const App = () => (
   <section className="main-wrapper">
     <Route path="/" component={Links} />
+    <Route exact path="/" component={About} />
     <Route path="/about" component={About} />
     <Route path="/work" component={Work} />
     <Route path="/places" component={Places} />
